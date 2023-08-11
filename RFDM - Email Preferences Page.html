@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta class="mktoString" mktoName="Page Title" id="page_title" default="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      	<link href="https://fonts.googleapis.com/css2?family=DM+Sans&amp;family=Donegal+One&amp;display=swap" rel="stylesheet">
+        <title>Marketo Email Preferences</title>
+        <style>
+          
+          	/* Base */
+            body {
+                background: #fff;
+              	color: #111;
+              	font-size: 16;
+            }
+
+          	.title,
+          	.sub-title,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            footer {
+                font-family: Donegal One, serif;
+              	font-style: normal;
+    			font-weight: normal;
+              	color: #0d152e;
+            }
+
+            .title2,
+          	 {
+                font-family: Donegal One, serif;
+              	font-style: normal;
+    			font-weight: normal;
+              	color: #ffffff;
+                font-size: 30px !important;
+            }
+          
+          	.title.light,
+          	.sub-title.light,
+          	h1.light,
+            h2.light,
+            h3.light,
+            h4.light,
+            h5.light,
+            h6.light {
+              	color: #fff;
+            }
+          
+          	.title {
+              font-size: 2.6rem;
+              line-height: 3.25rem;
+            }
+          
+          	h1 {
+              font-size: 2.25rem;
+              line-height: 2.8rem;
+            }
+          	
+          	h2 {
+              font-size: 1.5em;
+              font-weight: bold;
+              font-family: DM Sans;
+			  line-height: 140%;
+            }
+          
+          	.sub-title {
+                  font-family: DM Sans;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 1.25rem;
+                  line-height: 2.1rem;
+                  color: white;
+            }
+          
+  	        img.lpimg {
+             	width: fit-content;
+              	height: auto;
+                width: 250px;
+                padding-bottom: 20px;; 
+            }
+          
+          	/* Layout */
+          	
+          	.section {
+              padding: 10% 0; 
+            }
+          
+          	.row {
+              	max-width: 1100px;
+              	margin: auto; 
+             	display: flex;
+              	flex-direction: row;
+            }
+          
+          	.hero-left, .hero-right {
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+            }
+          
+          	.hero-right {
+	        	align-items: center;
+            	justify-content: center;
+            }
+          	.flex-center,
+          	.flex-left,
+          	.flex-right {
+             	display: flex;
+              	flex-direction: column;
+            }
+          
+          	.flex-center {
+             	align-items: center; 
+            }
+          
+          	.flex-left {
+             	align-items: center;
+            }
+          
+          	.flexright {
+             	align-items: center;
+            }
+          
+          	.section.email-preferences {
+             	padding: 4rem 0;
+            }
+          
+          	/* Modules */
+          	#mkto_gen_logo {
+             	margin-bottom: 30px; 
+            }
+          
+          	.mktoText {
+             	width: 100%; 
+            }
+          
+          	#hero-form {
+            	background: #fff;
+            	padding: 42px;
+            	max-width: 350px; 
+            }
+          
+          	header {
+              padding-top: 160px;
+            }
+          
+            p.footer-content {
+              	font-family: DM Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 200%;
+                color: #ffffff !important;
+                
+            }
+
+            
+            .partner-logos {
+                flex-direction: row;
+                justify-content: space-around;
+              	margin-top: 10%;
+            }
+
+            .partner-img img {
+                width: auto;
+                height: auto;
+            }
+          
+          	/* Helpers */
+          	.spacer {
+             	min-height: 100px; 
+            }
+          
+          	.blue {
+                background-color: #000000;
+              	color: #fff;
+            }
+
+            .grey {
+                background-color: #f7f9fb;
+              	color: #111;
+            }
+          
+          	.line {
+                width: 100%;
+                height: 1px;
+                background: #101c3d;
+                margin: 30px 0;
+            }
+          
+          	.line.light {
+              background-color: #fff;
+            }
+          
+          	.line.short {
+ 			   width: 162px;
+            }
+          
+          	/* Sizes */
+          	@media only screen and (max-width: 768px) {
+              .title,
+              .sub-title,
+              h1,
+              h2,
+              h3,
+              h4,
+              h5,
+              h6,
+              footer {
+                  text-align: center;
+                	
+              }
+              
+              .partner-logos {
+	              text-align: center;
+              }
+              
+              .partner-logos > .col-12 {
+               		margin-bottom: 4rem; 
+              }
+              
+            }
+
+            /* Media query for mobile devices with a maximum width of 768px */
+          @media (max-width: 768px) {
+            p.footer-content {
+              font-size: 53px !important;
+            }
+          }
+
+          
+        </style>
+    </head>
+    <body id="bodyId" class="mktEditable" align="center">
+    <div id="outerWrapDiv" class="mktEditable">
+    <div id="innerWrapDiv">
+      <header class="blue">
+        <div class="container-fluid blue">
+          <div class="row">
+            <div class="col-12">
+              <div class="mktoImg logo" id="logo" mktoName="Header Logo"><img class="lpimg" src="/img/your-logo-here.webp"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container-fluid tugboat-hero blue">
+            <div class="row">
+                <div class="col-12 col-md-6 hero-left">
+                    <div class="mktoText" id="hero-text" mktoName="Hero Text">
+                        <div class="title light">Email Preferences</div>
+                        <div class="line light"></div>
+                    </div>
+                </div>
+                <div class="mktoTagline" id="subtitle" mktoName="subtitle">
+                        <div class="title2 light">Please select uncheck the types of emails you no longer wish to receive below.</div>
+                    </div>
+            </div>
+        </div>
+        <div class="container-fluid blue">
+        	<div class="row">
+              <div class="col spacer">
+              </div>
+          	</div>  
+        </div>
+        <div class="container-fluid section email-preferences">
+          <div class="row">
+            <div class="mktoForm" id="hero-form" mktoName="Hero Form">
+              	<script src="//002-JXT-068.mktoweb.com/js/forms2/js/forms2.min.js"></script>
+				<form id="mktoForm_1022"></form>
+				<script>MktoForms2.loadForm("//002-JXT-068.mktoweb.com", "002-JXT-068", 1022);</script>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="container-fluid section mktEditable blue" id="mktFooter" mktoName="Footer Content">
+        <div class="row">
+          <div class="col">
+            <p class="footer-content">
+              &copy;
+              <script>// <![CDATA[
+              (document.currentScript || document.scripts[document.scripts.length - 1]).outerHTML = new Date().getFullYear();
+              // ]]></script>
+              Your Company Name Goes Here. Inc
+          	</p>  
+          </div>
+        </div>
+      </footer>
+    </div>
+    </div>
+      <script>
+      MktoForms2.whenReady(function (form) {
+          var prefillFields = {
+            "Email":"{{lead.Email Address}}"
+          },
+          prefillCheckboxes = {
+            "subscribedToPartnerEmails":"{{lead.Subscribed To Partner Emails}}",
+            "subscribedToResourcesEmails":"{{lead.Subscribed To Resources Emails}}",
+            "subscribedToSalesEmails":"{{lead.Subscribed To Sales Emails}}",
+            "subscribedToProductEmails":"{{lead.Subscribed To Product Emails}}",
+            "Unsubscribed":"{{lead.Unsubscribed}}"
+          },
+          initFields = {},
+          text = "<prefillFields>";
+          MktoForms2.$.each(prefillFields,function(key,val){
+            if(val.length){text += "<"+key+">"+val+"</"+key+">";}
+          });
+          text += "</prefillFields>";
+          var parser = new DOMParser(),
+          xmlDoc = parser.parseFromString(text,"text/xml"),
+          xmlNodes = xmlDoc.documentElement.childNodes;
+          for (i = 0; i < xmlNodes.length; i++) {
+            initFields[xmlNodes[i].nodeName] = xmlNodes[i].childNodes[0].nodeValue;
+          }
+          MktoForms2.$.each(prefillCheckboxes,function(key,val){
+            if(val){initFields[key]="yes"}
+          });
+          form.vals(initFields);
+      });
+      </script>
+    </body>
+</html>
